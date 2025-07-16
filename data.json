@@ -2,5 +2,7 @@
   "1231243.images.registry.blahblahblah.net/asdlfkj/node:26-bookworm17.58",
   "1231243.images.registry.blahblahblah.net/asdlfkj/dotnet:9.5-alpine17.58",
   "1231243.images.registry.blahblahblah.net/asdlfkj/python:26-bullseye",
-  "1231243.images.registry.blahblahblah.net/asdlfkj/golang:48-slim"
+  "1231243.images.registry.blahblahblah.net/asdlfkj/golang:48-slim",
+  "23984723.hub.docker.com/image/pascal:1997"
+  "9389238.asdfasdfasdf.ghcr.io/orgname/reponame/imagename:tag
 ]
