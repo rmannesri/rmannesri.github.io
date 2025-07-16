@@ -42,7 +42,7 @@
         uris.forEach(uri => {
           const lastSlash = uri.lastIndexOf('/');
           const nameAndTag = uri.substring(lastSlash + 1);  // after last slash
-          const tech = tag.split(':')[0];       // before colon
+          const tech = nameAndTag.split(':')[0];       // before colon
 
           const tr = document.createElement('tr');
           tr.innerHTML = `
