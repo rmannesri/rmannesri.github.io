@@ -42,28 +42,6 @@
   </table>
 
   <script>
-    let uriData = []
-    fetch('data.json')
-      .then(response => response.json())
-      .then(uris => {
-        const tbody = document.querySelector('#uri-table tbody');
-        uris.forEach(uri => {
-          const lastSlash = uri.lastIndexOf('/');
-          const nameAndTag = uri.substring(lastSlash + 1);  // after last slash
-          const tech = nameAndTag.split(':')[0];       // before colon
-
-          const tr = document.createElement('tr');
-          tr.innerHTML = `
-            <td>${tech.charAt(0).toUpperCase()+tech.slice(1)}</td>
-            <td>${nameAndTag}</td>
-            <td>${uri}</td>
-          `;
-          tbody.appendChild(tr);
-        });
-      })
-      .catch(error => {
-        console.error("Error loading data.json:", error);
-      });
    let uriData = [];
 
     fetch('data.json')
