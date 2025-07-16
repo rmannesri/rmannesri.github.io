@@ -65,7 +65,7 @@
       data.forEach(row => {
         const tr = document.createElement('tr');
         tr.innerHTML = `
-          <td>${row.tech.charAt(0).toUpperCase()+tech.slice(1)}</td>
+          <td>${row.tech.charAt(0).toUpperCase()+row.tech.slice(1)}</td>
           <td>${row.nameAndTag}</td>
           <td>${row.uri}</td>
         `;
