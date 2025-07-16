@@ -1,5 +1,6 @@
 [
-  { "name": "Alice", "age": 30, "city": "New York" },
-  { "name": "Bob", "age": 25, "city": "London" },
-  { "name": "Charlie", "age": 35, "city": "Paris" }
+  "1231243.images.registry.blahblahblah.net/asdlfkj/node:26-bookworm17.58",
+  "1231243.images.registry.blahblahblah.net/asdlfkj/dotnet:9.5-alpine17.58",
+  "1231243.images.registry.blahblahblah.net/asdlfkj/python:26-bullseye",
+  "1231243.images.registry.blahblahblah.net/asdlfkj/golang:48-slim"
 ]
